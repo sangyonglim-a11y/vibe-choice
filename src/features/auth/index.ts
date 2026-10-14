@@ -4,6 +4,7 @@ export { validateNickname } from "./model/nickname";
 export { signIn, signInWithGoogle, signOut, signUp } from "./api/auth";
 export { AuthProvider } from "./ui/AuthProvider";
 export { GoogleSignInButton } from "./ui/GoogleSignInButton";
+export { LoginFormSection } from "./ui/LoginFormSection";
 export { NicknameForm } from "./ui/NicknameForm";
 export { NicknameGate } from "./ui/NicknameGate";
 export { RequireAuth } from "./ui/RequireAuth";
